@@ -108,3 +108,43 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+/* DARK MODE */
+
+.dark-toggle {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: white;
+    color: #1677a8;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark section {
+    background-color: #1e1e1e;
+}
+
+body.dark .contenido article {
+    background-color: #2a2a2a;
+}
+
+body.dark header {
+    background-color: #0d4a6b;
+}
+
+body.dark nav,
+body.dark footer {
+    background-color: #000;
+}
+
+body.dark .dark-toggle {
+    background-color: #333;
+    color: #e0e0e0;
+}
